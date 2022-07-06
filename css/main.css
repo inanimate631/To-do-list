@@ -140,4 +140,25 @@
 
 .massange {
     font-size: 23px;
+    text-align: center;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+.task input{
+    margin: 15px;
+    height: 20px;
+    width: 20px;
+}
+
+.completed{
+    background-color: #00E6F6;
+}
+
+.completed p{
+    text-decoration: line-through;
 }
